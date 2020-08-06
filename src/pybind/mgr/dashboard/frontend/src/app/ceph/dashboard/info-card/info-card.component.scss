@@ -22,9 +22,13 @@ $card-font-max-size: 21px;
     padding-top: 40px !important;
 
     .card-title {
-      left: 0;
+      // title underline
+      border-bottom: 1px solid bd.$color-info-card-border;
+      left: unset;
+      padding-bottom: 0.3rem;
       position: absolute;
-      top: 0;
+      top: -1rem;
+      width: 100%;
     }
   }
 }
